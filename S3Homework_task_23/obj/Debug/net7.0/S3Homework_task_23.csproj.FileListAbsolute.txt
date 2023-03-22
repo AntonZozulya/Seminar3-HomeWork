@@ -1,0 +1,15 @@
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\bin\Debug\net7.0\S3Homework_task_23.exe
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\bin\Debug\net7.0\S3Homework_task_23.deps.json
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\bin\Debug\net7.0\S3Homework_task_23.runtimeconfig.json
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\bin\Debug\net7.0\S3Homework_task_23.dll
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\bin\Debug\net7.0\S3Homework_task_23.pdb
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\obj\Debug\net7.0\S3Homework_task_23.csproj.AssemblyReference.cache
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\obj\Debug\net7.0\S3Homework_task_23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\obj\Debug\net7.0\S3Homework_task_23.AssemblyInfoInputs.cache
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\obj\Debug\net7.0\S3Homework_task_23.AssemblyInfo.cs
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\obj\Debug\net7.0\S3Homework_task_23.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\obj\Debug\net7.0\S3Homework_task_23.dll
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\obj\Debug\net7.0\refint\S3Homework_task_23.dll
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\obj\Debug\net7.0\S3Homework_task_23.pdb
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\obj\Debug\net7.0\S3Homework_task_23.genruntimeconfig.cache
+C:\Users\Антон\Desktop\Seminar_3\S3Homework_task_23\obj\Debug\net7.0\ref\S3Homework_task_23.dll
