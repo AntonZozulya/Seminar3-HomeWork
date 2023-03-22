@@ -3,19 +3,14 @@
 // 23432 -> да
 // 12821 -> да
 
+
 Console.Clear();
 Console.WriteLine("Задача 19");
-Console.Write("Введите число: ");
-string? number = Console.ReadLine();
+Console.Write("Введите пятизначное число: ");
+string N = Console.ReadLine()!;
 
-void CheckingNumber(string number){
-  if (number[0]==number[4] || number[1]==number[3]){
-    Console.WriteLine($"Ваше число: {number} - палиндром.");
-  }
-  else Console.WriteLine($"Ваше число: {number} - НЕ палиндром.");
+if(N[0] == N[4] || N[1] == N[3])
+{
+  Console.WriteLine($"Ваше число: {N} - палиндром.");
 }
-
-if (number!.Length == 5){
-  CheckingNumber(number);
-}
-else Console.WriteLine($"Введи правильное число");
+else Console.WriteLine($"Ваше число: {N} - НЕ палиндром.");
