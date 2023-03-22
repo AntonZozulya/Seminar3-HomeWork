@@ -2,28 +2,24 @@
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-Console.WriteLine("\nЗадача 21");
-int x1 = Coordinate("x", "A");
-int y1 = Coordinate("y", "A");
-int z1 = Coordinate("z", "A");
-int x2 = Coordinate("x", "B");
-int y2 = Coordinate("y", "B");
-int z2 = Coordinate("z", "B");
+Console.Clear();
+Console.Write("Введите координату x(A) ");
+double xA = Convert.ToDouble(Console.ReadLine());
 
-int Coordinate(string coorName, string pointName)
-{
-    Console.Write($"Введите координату {coorName} точки {pointName}: ");
-    return Convert.ToInt16(Console.ReadLine());
-}
+Console.Write("Введите координату y(A) ");
+double yA = Convert.ToDouble(Console.ReadLine());
 
-double Decision(double x1, double x2, 
-                double y1, double y2, 
-                double z1, double z2){
-  return Math.Sqrt(Math.Pow((x2-x1), 2) + 
-                   Math.Pow((y2-y1), 2) + 
-                   Math.Pow((z2-z1), 2));
-}
+Console.Write("Введите координату z(A) ");
+double zA = Convert.ToDouble(Console.ReadLine());
 
-double segmentLength =  Math.Round (Decision(x1, x2, y1, y2, z1, z2), 2 );
+Console.Write("Введите координату x(B) ");
+double xB = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine($"Длина отрезка  {segmentLength}");
+Console.Write("Введите координату y(B) ");
+double yB = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Введите координату z(B) ");
+double zB = Convert.ToDouble(Console.ReadLine());
+
+double s = Math.Sqrt(Math.Pow(xA - xB, 2) + Math.Pow(yA - yB, 2) + Math.Pow(zA - zB, 2));
+Console.WriteLine($"Расстояние между двумя точками равно {Math.Round (s, 2)}");
