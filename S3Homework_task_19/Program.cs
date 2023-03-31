@@ -5,12 +5,22 @@
 
 
 Console.Clear();
-Console.WriteLine("Задача 19");
 Console.Write("Введите пятизначное число: ");
-string N = Console.ReadLine()!;
-
-if(N[0] == N[4] || N[1] == N[3])
+int n;  
+int k;
+int sum=0;
+int m;
+n = Convert.ToInt32(Console.ReadLine());
+if(n > 9999 && n < 100000)
 {
-  Console.WriteLine($"Ваше число: {N} - палиндром.");
+for(m= n; n != 0; n = n / 10)
+{
+k=n % 10;
+sum=sum * 10 + k;
 }
-else Console.WriteLine($"Ваше число: {N} - НЕ палиндром.");
+if(m == sum)
+Console.Write($"{m} является палиндромом.");
+else
+Console.Write($"{m} не является палиндромом.");
+} else
+Console.Write("Введите пятизначное число! ");
